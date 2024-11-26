@@ -195,7 +195,7 @@ background:#101111;padding: 5px;}
 .enquire a.btn img{margin-left: 5px;}
 
 /*-------footer-section--------*/
-.footer{background: #000; padding: 60px 0px 30px; position: relative;}
+.footer{background: #121211; padding: 60px 0px 30px; position: relative;}
 .ftr-grid{display: grid; grid-template-columns: repeat(4 ,1fr); gap: 0px 10px;}
 .ftr-menu{position: relative; display: grid; grid-template-columns: repeat(2 ,1fr);}
 .ftr-menu li {line-height: 40px;}
@@ -252,6 +252,46 @@ span.featured {color: #FFF;font-family: 'DM Sans';font-size: 24px;font-weight: 5
 
 .heading-top{display: flex; align-items: center; gap: 0px 30px; margin-top: 40px;}
 .heading-top h2{margin-bottom: 0px; color: #121211;font-size: 92px;font-style: normal;line-height: normal;letter-spacing: -3.68px;}
-.heading-top a.btn {border-radius: 21.5px;background: #000;color: #FFF;font-family: 'DM Sans';font-size: 14px;font-weight: 300;padding: 8px 30px;display:inline-block;}
-.heading-top a.btn img{margin-left: 5px;}
+.topics.btn {border-radius: 21.5px;background: #000;color: #FFF;font-family: 'DM Sans';font-size: 14px;font-weight: 300;padding: 8px 20px;display:inline-block;}
+.topics.btn img{margin-left: 5px;}
 .layer-grid3{display: grid; grid-template-columns: repeat(3 ,1fr); gap: 0px 20px;}
+
+/*----careers page-------*/
+.careers-banner{position: relative; padding: 160px 0px 10px; background:#024728;}
+.leadership h2.team{color: #FFF;font-size: 92px;line-height: 90px;letter-spacing: -3.68px; width: 525px;}
+.teamslider1 {position: relative;overflow: hidden;}
+.teamslider1 .item-img {width: 553.847px;height: 607.265px;flex-shrink: 0;border-radius: 18px;margin: 0 20px;text-align: center;display: inline-block; padding: 0px 30px;}
+.teamslider1 .item-img img {width: 100%;height: 100%;object-fit: cover;border-radius: 18px; }
+
+.tittle-hd h2.hd2{color: #FFF;font-size: 62px;line-height: 70px;letter-spacing: -2.48px; width: 705px;}
+.below-btn {position: absolute;bottom: 50px;}
+.below-btn a.btn {color:#FFF;font-family:'DM Sans';font-size: 24px;font-style: normal;font-weight: 300;line-height: normal;letter-spacing: -1.2px; text-align: left;}
+.below-btn a.btn span{margin-top: 12px; display: block;} 
+
+.latest-section{position: relative; padding: 90px 0px; background: #fff;}
+.latest-section h2{color:#121211;font-size: 92px;letter-spacing: -4.6px;}
+.container-mx{max-width: 90%; margin: 0px auto;}
+.latest-list{border-bottom: 1px solid #F2F2F2; padding: 40px 0px;}
+.latest-list ul{display: flex; align-items: center; justify-content: space-between;}
+.latest-list li span{font-size: 20px;font-weight: 400;line-height: 29px;}
+.latest-list li{color:#121211;font-family:'DM Sans';font-size: 14px;font-weight: 300;line-height: normal; display: inline-block;}
+.latest-list li a{text-decoration: none;color:#121211;}
+.latest-list li a img{margin-left: 8px;}
+.center-button{margin-top: 40px; text-align: center;}
+
+.growth-section{border-radius: 38px 38px 0px 0px;background: #000; padding: 90px 0px; position: relative;}
+.growth-section .row{align-items: center;}
+.growthslider2{position: relative;}
+.item-growth{position: relative;     padding: 30px 0px;}
+.item-growth::after {content: '';position: absolute;top: 0px;left: 0px;background-image: url(../images/Export.png);width: 124px;height: 102px;background-position: center;background-size: cover;}
+.item-growth h4{color: #FFF;font-family:'DM Sans';font-size: 40px;font-weight: 100;letter-spacing: -1px; margin-bottom: 30px; position: relative; z-index: 22;}
+.Sales-field h6{color: #FFF;font-family:'DM Sans';font-size: 24px;font-style: normal;font-weight: 600;line-height: normal;letter-spacing: -1.2px; margin-bottom: 0px;}
+.Sales-field p{color: #FFF;font-size: 20px;font-style: italic;line-height: normal;letter-spacing: -1px;}
+.growth-img img{width: 100%; border-radius: 18px;}
+
+.growth-section .owl-next:before {content: '';background-image: url(../images/preview-right.svg);background-repeat: no-repeat;position: absolute;
+  bottom: 0%;left:8%;width: 35px;height: 35px;background-size: 35px;}
+.growth-section .owl-prev:before {content: '';background-image: url(../images/preview-left.svg);background-repeat: no-repeat;position: absolute;
+  bottom: 0%;left:0%;width: 35px;height: 35px;background-size: 35px;}
+
+.growth-section .owl-theme .owl-controls .owl-nav div {height: 0px !important;}

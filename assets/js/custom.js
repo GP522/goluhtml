@@ -69,6 +69,61 @@ owl.owlCarousel({
 
   
 
+//===========careers page=============
+  var slider1 = $('.slider1'); 
+  slider1.owlCarousel({
+    loop:true,
+    nav:false,
+    dots:false,
+    smartSpeed:450,
+    autoplay:true,
+    autoplayTimeout:5000,
+    margin:30,
+    responsive:{
+    320:{items:1},
+    480:{items:1},
+    600:{items:2},      
+    960:{items:3},
+    1200:{items:3.8}
+    
+    }
+  });
+
+
+  var slider2 = $('.slider2'); 
+  slider2.owlCarousel({
+    loop:true,
+    nav:true,
+    dots:false,
+    smartSpeed:450,
+    autoplay:true,
+    autoplayTimeout:5000,
+    margin:30,
+    responsive:{
+    320:{items:1},
+    480:{items:1},
+    600:{items:1},      
+    960:{items:1},
+    1200:{items:1}
+    
+    }
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   document.addEventListener("DOMContentLoaded", () => {
     const slides = document.querySelectorAll(".slide");
     const timeDots = document.querySelectorAll(".time-dot");
