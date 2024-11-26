@@ -289,9 +289,16 @@ span.featured {color: #FFF;font-family: 'DM Sans';font-size: 24px;font-weight: 5
 .Sales-field p{color: #FFF;font-size: 20px;font-style: italic;line-height: normal;letter-spacing: -1px;}
 .growth-img img{width: 100%; border-radius: 18px;}
 
-.growth-section .owl-next:before {content: '';background-image: url(../images/preview-right.svg);background-repeat: no-repeat;position: absolute;
-  bottom: 0%;left:8%;width: 35px;height: 35px;background-size: 35px;}
-.growth-section .owl-prev:before {content: '';background-image: url(../images/preview-left.svg);background-repeat: no-repeat;position: absolute;
-  bottom: 0%;left:0%;width: 35px;height: 35px;background-size: 35px;}
-
+.growth-section .owl-next:before {content: '';background-image: url(../images/preview-right.svg);background-repeat: no-repeat;position: absolute;bottom: 0%;left:8%;width: 35px;height: 35px;background-size: 35px;}
+.growth-section .owl-prev:before {content: '';background-image: url(../images/preview-left.svg);background-repeat: no-repeat;position: absolute;bottom: 0%;left:0%;width: 35px;height: 35px;background-size: 35px;}
 .growth-section .owl-theme .owl-controls .owl-nav div {height: 0px !important;}
+
+/*----Article_Detail_Page-------*/
+.artical-page h6{color: #D3D1D1;font-family:'Degular';font-size: 12px;font-style: normal;font-weight: 600;line-height: normal;letter-spacing: 0.24px; margin-bottom: 0px;}
+.artical-page h3{color: #000;font-family:'Founders Grotesk';font-size: 64px;font-style: normal;font-weight: 400;line-height: normal;letter-spacing: -2.56px;}
+.artical-page p{color: #777;font-size: 14px;font-style: normal;font-weight: 500;line-height: normal;letter-spacing: -0.56px;}
+.detail-warp{position: relative; padding: 40px 0px 0px 80px;}
+.detail-warp p{color: #121211;font-size: 16px;font-style: normal;font-weight: 400;line-height: 24px; letter-spacing: -0.64px;}
+.detail-warp p span{font-weight: 600;}
+.detail-warp h5{color: #121211;font-family:'DM Sans';font-size: 16px;font-style: normal;font-weight: 600;line-height: 24px;letter-spacing: -0.64px;}
+.social-media a{display: inline-block; margin-right: 8px;}
