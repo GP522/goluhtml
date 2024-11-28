@@ -10,7 +10,7 @@ Date         : 22/10/2024.
 @font-face {font-family:FontAwesome;src:url(../fonts/FontAwesome.otf);}
 @font-face {font-family:DMSans-Regular;src:url(../fonts/DMSans-Regular.ttf);}
 @font-face {font-family:FoundersGrotesk-Regular; src:url(../fonts/FoundersGrotesk-Regular.ttf);}
-
+@font-face{font-family:Degular-Regular; src: url(../fonts/Degular-Regular.otf); }
 
 body{font-family: "DM Sans", serif;color:#353332;line-height:1.7;font-size: 14px; letter-spacing: normal;}
 
@@ -306,8 +306,8 @@ span.featured {color: #FFF;font-family: 'DM Sans';font-size: 24px;font-weight: 5
 .growth-section .owl-theme .owl-controls .owl-nav div {height: 0px !important;}
 
 /*----Article_Detail_Page-------*/
-.artical-page h6{color: #D3D1D1;font-family:'Degular';font-size: 12px;font-style: normal;font-weight: 600;line-height: normal;letter-spacing: 0.24px; margin-bottom: 0px;}
-.artical-page h3{color: #000;font-family:'Founders Grotesk';font-size: 64px;font-style: normal;font-weight: 400;line-height: normal;letter-spacing: -2.56px;}
+.artical-page h6{color: #D3D1D1;font-family:'Degular-Regular';font-size: 12px;font-style: normal;font-weight: 600;line-height: normal;letter-spacing: 0.24px; margin-bottom: 0px;}
+.artical-page h3{color: #000;font-family:'FoundersGrotesk-Regular';font-size: 64px;font-style: normal;font-weight: 400;line-height: normal;letter-spacing: -2.56px;}
 .artical-page p{color: #777;font-size: 14px;font-style: normal;font-weight: 500;line-height: normal;letter-spacing: -0.56px;}
 .detail-warp{position: relative; padding: 40px 0px 0px 120px;}
 .detail-warp p{color: #121211;font-size: 16px;font-style: normal;font-weight: 400;line-height: 24px; letter-spacing: -0.64px;}
