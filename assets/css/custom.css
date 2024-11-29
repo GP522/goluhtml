@@ -262,17 +262,9 @@ span.featured {color: #FFF;font-family: 'DM Sans';font-size: 24px;font-weight: 5
 .careers-banner{position: relative; padding: 160px 0px 10px; background:#024728;}
 .leadership h2.team{color: #FFF;font-size: 92px;line-height: 90px;letter-spacing: -3.68px; width: 525px;}
 .teamslider1 {position: relative;overflow: hidden;}
-.teamslider1 .item-img {
-  width: 470.847px;
-  height: 560.265px;
-  flex-shrink: 0;
-  border-radius: 18px;
-  margin: 0 20px;
-  text-align: center;
-  display: inline-block;
-  padding: 0px 40px;
-}
+.teamslider1 .item-img {height: 560px;}
 .teamslider1 .item-img img {width: 100%;height: 100%;object-fit: cover;border-radius: 18px; }
+.teamslider1 .Sample-box p{color: #F2F2F2; font-size: 14px; margin-top: 20px;}
 
 .tittle-hd h2.hd2{color: #FFF;font-size: 62px;line-height: 70px;letter-spacing: -2.48px; width: 705px;}
 .below-btn {position: absolute;bottom: 50px;}
@@ -281,8 +273,9 @@ span.featured {color: #FFF;font-family: 'DM Sans';font-size: 24px;font-weight: 5
 
 .latest-section{position: relative; padding: 90px 0px; background: #fff;}
 .latest-section h2{color:#121211;font-size: 92px;letter-spacing: -4.6px;}
-.container-mx{max-width: 90%; margin: 0px auto;}
-.latest-list{border-bottom: 1px solid #F2F2F2; padding: 40px 0px;}
+.latest-list{padding: 40px 0px; position: relative;}
+.latest-list::after {content: '';position: absolute;bottom: 0px;left: -12%;width: 1400px;height: 2px;background: #F2F2F2;text-align: center;}
+
 .latest-list ul{display: flex; align-items: center; justify-content: space-between;}
 .latest-list li span{font-size: 20px;font-weight: 400;line-height: 29px;}
 .latest-list li{color:#121211;font-family:'DM Sans';font-size: 14px;font-weight: 300;line-height: normal; display: inline-block;}
