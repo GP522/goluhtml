@@ -221,7 +221,7 @@ background:#101111;padding: 5px;}
 .backtop img{margin-right: 5px;}
 .form-details .form-control{border: 1px solid #F2F2F2; height: 50px; padding: 10px 20px; margin-bottom: 20px; font-weight: 300; font-size: 14px; color: #A6A6A6;}
 .form-details textarea.form-control{min-height: 110px;}
-.form-details label {color:#121211;font-family: 'DM Sans';font-size: 18px;font-weight: 500;line-height: 29px;letter-spacing: -0.9px; margin-bottom: 6px;}
+.form-details label {color:#121211;font-family: 'DM Sans';font-size: 18px;font-weight: 500;line-height: 29px;letter-spacing: -0.9px; margin-bottom: 8px;}
 .form-details h3{color:#121211;font-family:'DM Sans';font-size: 18px;font-style: normal;font-weight: 500;margin-bottom: 0px;}
 .form-details label span{color:#A6A6A6;font-family:'DM Sans';font-size: 14px;font-weight: 300;line-height: 20px; display: block;margin-bottom: 20px;}
 .form-details p{color:#A6A6A6;font-family:'DM Sans';font-size: 12px;font-style: normal;font-weight: 300;line-height: 18px;}
@@ -235,6 +235,9 @@ background:#101111;padding: 5px;}
 .corporate a{text-decoration: none; color: #1E1E1E; font-size: 16px; margin-bottom: 20px; display:block;}
 .map-section{position: relative; padding: 60px 0px; background: #F2F2F2;}
 .map-section img{width: 100%;}
+
+.corporate-layer{display: grid; grid-template-columns: repeat(3 ,1fr); gap: 0px 30px; border-bottom: 1px solid #F2F2F2;}
+.corporate-box{padding: 30px 0px; position: relative;}
 
 
 /* -----Blog page ------*/
@@ -274,7 +277,7 @@ span.featured {color: #FFF;font-family: 'DM Sans';font-size: 24px;font-weight: 5
 .latest-section{position: relative; padding: 90px 0px; background: #fff;}
 .latest-section h2{color:#121211;font-size: 92px;letter-spacing: -4.6px;}
 .latest-list{padding: 40px 0px; position: relative;}
-.latest-list::after {content: '';position: absolute;bottom: 0px;left: -12%;width: 1400px;height: 2px;background: #F2F2F2;text-align: center;}
+.latest-list::after {content: '';position: absolute;bottom: 0px;left: -12%;width: 1400px;height: 1px;background: #F2F2F2;text-align: center;}
 
 .latest-list ul{display: flex; align-items: center; justify-content: space-between;}
 .latest-list li span{font-size: 20px;font-weight: 400;line-height: 29px;}
