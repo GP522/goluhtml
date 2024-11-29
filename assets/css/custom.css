@@ -250,6 +250,7 @@ background:#101111;padding: 5px;}
 .layer-grid2{display: grid; grid-template-columns: repeat(2 ,1fr); gap: 0px 20px;}
 .blog-box{position: relative; overflow: hidden; margin-top: 30px;}
 .blog-img {position: relative;}
+.blog-img img{border-radius: 18px;}
 span.featured {color: #FFF;font-family: 'DM Sans';font-size: 24px;font-weight: 500;line-height: normal;letter-spacing: -0.96px;position: absolute;bottom: 14px;z-index: 2;left: 20px;}
 .blog-cnt{padding-top: 20px;}
 .blog-cnt p{color: #777;font-size: 14px;font-style: normal;font-weight: 500;line-height: normal;letter-spacing: -0.56px; margin-bottom: 4px;}
