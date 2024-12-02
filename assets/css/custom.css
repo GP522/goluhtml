@@ -262,6 +262,11 @@ span.featured {color: #FFF;font-family: 'DM Sans';font-size: 24px;font-weight: 5
 .topics.btn img{margin-left: 5px;}
 .layer-grid3{display: grid; grid-template-columns: repeat(3 ,1fr); gap: 0px 20px;}
 
+.select-wrapper{position: relative;}
+.select-wrapper select.form-select {width: 193px;height: 43px;border-radius: 21px; position: relative;background: #000;font-size: 14px;font-weight: 300;line-height: 32px;color: #fff;border: 0px;}
+select.form-select.addmember {position: relative;z-index: 1024;background-image: url(../images/all-view.svg);background-repeat: no-repeat;background-position: 90% center;background-size: 26px;}
+select.form-select.addmember::after{content: ''; position: absolute; top: 0px; left: 0px;width: 193px;height: 43px;background: #000;}
+
 /*----careers page-------*/
 .careers-banner{position: relative; padding: 160px 0px 10px; background:#024728;}
 .leadership h2.team{color: #FFF;font-size: 92px;line-height: 90px;letter-spacing: -3.68px; width: 525px;}
@@ -321,7 +326,7 @@ span.featured {color: #FFF;font-family: 'DM Sans';font-size: 24px;font-weight: 5
 
 .expo-section{border-radius: 18px;background: #F2F2F2; width:1140px;padding: 30px; height: 436px; margin: 0 auto; position: relative;     margin-top: -6%; display: flex; align-items: center;}
 .expo-section .position-wer{position: relative;}
-.position-wer::after {content: '';position: absolute;top: -35px;right: -28px;background-image: url(../images/event/Event-bg.svg);width: 240px;height: 407px;}
+.position-wer::after {content: '';position: absolute;top: -35px;right: -28px;background-image: url(../images/event/Event-bg.png);width: 240px;height: 407px;}
 .packexpo-img img{width: 100%; border-radius: 18px;}
 .event-text h5{color: #000;font-family:'DM Sans';font-size: 24px;font-weight: 300;line-height: normal;letter-spacing: -0.96px; margin: 0px;}
 .event-text h3{color:#121211;font-family: 'DM Sans';font-size: 32px;font-style: normal;font-weight: 600;line-height: normal;letter-spacing: -1.28px;}
@@ -344,6 +349,8 @@ span.featured {color: #FFF;font-family: 'DM Sans';font-size: 24px;font-weight: 5
 .past-events .blog-cnt h6{color: #fff;}
 .youtube{position: absolute; top:34%; left: 0px; right: 0px; text-align: center; z-index: 2;}
 
+.blog-box p{font-family:'DM Sans';color: #121211; margin-top:12px;font-size: 14px;font-weight: 300;line-height: 29px;letter-spacing: -0.05em;
+  text-align: left;}
 /*----privacy-policy page.---------*/
 .artical-page.border_bottom {padding-bottom: 40px;border-bottom: 1px solid #E8E8E8;}
 .detail-warp ul.post-list li a{color: #121211; text-decoration: underline;}
@@ -354,21 +361,24 @@ span.featured {color: #FFF;font-family: 'DM Sans';font-size: 24px;font-weight: 5
 
 
 /*--Apply job page ------*/
-.apply-header{margin-top: 30px;}
+.apply-header{margin-top: 20px;}
 .apply-header .header-menu .navbar-dark{background: #EDEDEC;}
 .Apply-page{background: #F2F2F2; border-radius: 57px 57px 0px 0px; padding: 60px 0px;height:823px;top: 162px; position: relative;}
 .Apply-form h2{color: #121211;font-size: 92px;line-height: 119.78px;letter-spacing: -0.05em;text-align: left;}
-.Apply-form p{color: #121211;font-size: 32px;font-weight: 400;line-height: 29px;letter-spacing: -0.05em;text-align: left; margin-bottom: 40px;}
+.Apply-form p{color: #121211;font-size: 32px;font-weight: 300;line-height: 29px;letter-spacing: -0.05em;text-align: left; margin-bottom: 40px;}
 .Apply-form p span{font-weight:600;}
 
 .Apply-form .form-control{background: #F2F2F2;height: 56px; margin-bottom: 40px; font-family:'DM Sans';font-size: 14px;font-weight: 300;line-height: 20px;letter-spacing: -0.05em;text-align: left;border: 1px solid #C6C6C6}
 .Apply-form textarea.form-control{min-height: 140px;}
 .Apply-form textarea {resize: none;}
 
-.Apply-form button.btn{color: #fff; border: 0px; font-size: 14px; border-radius: 21.5px; display: inline-block; background: #252525;width: 145px;height: 43px;}
-.Apply-form button.btn.Cancel{color: #101111; background: #F2F2F2; border: 1px solid #C6C6C6; margin-right: 12px;}
-.Apply-form button.btn img{margin-left: 30px;}
+.Apply-bnt button.btn{color: #fff; border: 0px; font-size: 14px; border-radius: 21.5px; display: inline-block; background: #252525;width: 145px;height: 43px;}
+.Apply-bnt button.btn.Cancel{color: #000000; background: #F2F2F2; border: 1px solid #C6C6C6; margin-right: 12px;}
+.Apply-bnt button.btn img{margin-left: 30px;}
 
 .upload-file {width: 283px;height: 56px;line-height: 56px;border-radius: 6px;background: #E9E9E9;margin-bottom: 40px;text-align: center;position: relative;display: flex;align-items: center;justify-content: space-between; padding: 20px;}
 .upload-file button {border: 0;background: transparent;cursor: pointer;display: flex;align-items: center;gap: 10px;}
-.file-name {font-family: 'DM Sans';font-size: 14px;font-weight: 300;line-height: 20px;text-align: left;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 200px;}
+.file-name {font-family: 'DM Sans';color: #101111;font-size: 14px;font-weight: 300;line-height: 20px;text-align: left;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 200px;}
+
+.successfully{position: relative; left: 30px;}
+.carees-succes h2{color:#121211;font-size: 92px;font-style: normal;font-weight: 100;line-height: 100px;letter-spacing: -4.6px; margin-bottom: 20px;}

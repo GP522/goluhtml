@@ -106,7 +106,24 @@ owl.owlCarousel({
   });
 
 
-
+  var slider3 = $('.slider3'); 
+  slider3.owlCarousel({
+    loop:true,
+    nav:false,
+    dots:false,
+    smartSpeed:450,
+    autoplay:true,
+    autoplayTimeout:5000,
+    margin:30,
+    responsive:{
+    320:{items:1},
+    480:{items:1},
+    600:{items:2},      
+    960:{items:3},
+    1200:{items:4.2}
+    
+    }
+  });
 
 
 
