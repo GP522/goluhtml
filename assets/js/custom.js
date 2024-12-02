@@ -27,10 +27,6 @@ AOS.init({
   duration: 1000,
 });
 
-//   $(".mobileNavWrapper ul>li,.navbar ul>li").find("ul").parent().prepend('<span class="hasSub"></span>');
-// $(".mobileNavWrapper ul li .hasSub,.navbar ul>li .hasSub").click(function(){
-// $(this).siblings("ul").slideToggle();
-//    });
 
 });
 
@@ -114,16 +110,6 @@ owl.owlCarousel({
 
 
 
-
-
-
-
-
-
-
-
-
-
   document.addEventListener("DOMContentLoaded", () => {
     const slides = document.querySelectorAll(".slide");
     const timeDots = document.querySelectorAll(".time-dot");
@@ -156,10 +142,16 @@ owl.owlCarousel({
   });
 
 
-
-
-
-
+  document.getElementById('uploadButton').addEventListener('click', function () {
+    document.getElementById('fileInput').click();
+  });
+  
+  document.getElementById('fileInput').addEventListener('change', function () {
+    const fileName = this.files[0] ? this.files[0].name : 'Upload Resume';
+    document.getElementById('fileName').textContent = fileName;
+  });
+  
+  
 
 // MAIN PART FOR THE VIDEO AND PLAY BUTTON
 
@@ -247,7 +239,7 @@ $(document).ready(function(){
 });
 
 
-  
+
   
 
 

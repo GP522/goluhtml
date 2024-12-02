@@ -321,14 +321,17 @@ span.featured {color: #FFF;font-family: 'DM Sans';font-size: 24px;font-weight: 5
 
 .expo-section{border-radius: 18px;background: #F2F2F2; width:1140px;padding: 30px; height: 436px; margin: 0 auto; position: relative;     margin-top: -6%; display: flex; align-items: center;}
 .expo-section .position-wer{position: relative;}
-.position-wer::after {content: '';position: absolute;top: -35px;right: -28px;background-image: url(../images//event/Event-bg.svg);width: 240px;height: 407px;}
+.position-wer::after {content: '';position: absolute;top: -35px;right: -28px;background-image: url(../images/event/Event-bg.svg);width: 240px;height: 407px;}
 .packexpo-img img{width: 100%; border-radius: 18px;}
 .event-text h5{color: #000;font-family:'DM Sans';font-size: 24px;font-weight: 300;line-height: normal;letter-spacing: -0.96px; margin: 0px;}
 .event-text h3{color:#121211;font-family: 'DM Sans';font-size: 32px;font-style: normal;font-weight: 600;line-height: normal;letter-spacing: -1.28px;}
-.event-text .upper{position: absolute; bottom: 0px;}
+.event-text .upper{position:relative; margin: 50px 0px; }
 .event-text li{color:#121211;font-family: 'DM Sans';font-size: 24px;font-weight:300;letter-spacing: -0.96px; line-height: normal;}
 .event-text li span{font-weight: 500;}
 .pastevents-bg{position: relative; padding: 20px 0px 90px;}
+
+.more-btn{position: relative;}
+.more-btn a{color:#121211;font-family: 'DM Sans';font-size:16px;font-weight:300;letter-spacing: -0.96px; line-height: normal; text-decoration: none;}
 
 /*----Event-Detail page.---------*/
 .Event-Gallery{position: relative; padding: 0px 0px 90px; }
@@ -347,4 +350,25 @@ span.featured {color: #FFF;font-family: 'DM Sans';font-size: 24px;font-weight: 5
 .artical-page.border_bottom h2{color: #000;font-family:'DM Sans';font-size: 92px;font-style: normal;font-weight: 600;line-height: 90px;letter-spacing: -3.68px;}
 .artical-page.border_bottom p{color: #000;font-family:'DM Sans';font-size: 18px;font-style: normal;font-weight: 400;line-height: normal;letter-spacing: -0.72px;}
 .privacy-text h6 {color: #000;font-family:'DM Sans';font-size: 32px;font-style: normal;font-weight: 600;line-height: normal;letter-spacing: -1.28px; margin-bottom: 20px;}
-.privacy-text p{color: #000;font-family:'DM Sans';font-size: 18px;font-style: normal;font-weight: 400;line-height: 24px; /* 133.333% */letter-spacing: -0.9px;}
+.privacy-text p{color: #000;font-family:'DM Sans';font-size: 18px;font-style: normal;font-weight: 400;line-height: 24px;letter-spacing: -0.9px;}
+
+
+/*--Apply job page ------*/
+.apply-header{margin-top: 30px;}
+.apply-header .header-menu .navbar-dark{background: #EDEDEC;}
+.Apply-page{background: #F2F2F2; border-radius: 57px 57px 0px 0px; padding: 60px 0px;height:823px;top: 162px; position: relative;}
+.Apply-form h2{color: #121211;font-size: 92px;line-height: 119.78px;letter-spacing: -0.05em;text-align: left;}
+.Apply-form p{color: #121211;font-size: 32px;font-weight: 400;line-height: 29px;letter-spacing: -0.05em;text-align: left; margin-bottom: 40px;}
+.Apply-form p span{font-weight:600;}
+
+.Apply-form .form-control{background: #F2F2F2;height: 56px; margin-bottom: 40px; font-family:'DM Sans';font-size: 14px;font-weight: 300;line-height: 20px;letter-spacing: -0.05em;text-align: left;border: 1px solid #C6C6C6}
+.Apply-form textarea.form-control{min-height: 140px;}
+.Apply-form textarea {resize: none;}
+
+.Apply-form button.btn{color: #fff; border: 0px; font-size: 14px; border-radius: 21.5px; display: inline-block; background: #252525;width: 145px;height: 43px;}
+.Apply-form button.btn.Cancel{color: #101111; background: #F2F2F2; border: 1px solid #C6C6C6; margin-right: 12px;}
+.Apply-form button.btn img{margin-left: 30px;}
+
+.upload-file {width: 283px;height: 56px;line-height: 56px;border-radius: 6px;background: #E9E9E9;margin-bottom: 40px;text-align: center;position: relative;display: flex;align-items: center;justify-content: space-between; padding: 20px;}
+.upload-file button {border: 0;background: transparent;cursor: pointer;display: flex;align-items: center;gap: 10px;}
+.file-name {font-family: 'DM Sans';font-size: 14px;font-weight: 300;line-height: 20px;text-align: left;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 200px;}
