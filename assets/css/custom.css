@@ -382,3 +382,49 @@ select.form-select.addmember::after{content: ''; position: absolute; top: 0px; l
 
 .successfully{position: relative; left: 30px;}
 .carees-succes h2{color:#121211;font-size: 92px;font-style: normal;font-weight: 100;line-height: 100px;letter-spacing: -4.6px; margin-bottom: 20px;}
+
+
+/*----product page-------*/
+.product-page{padding: 120px 0px; position: relative;}
+.title-hd {text-align: center;}
+.title-hd h2{color:#121211;font-size: 72px;font-style: normal;line-height: 100px;letter-spacing: -3.6px; margin: 0px;}
+.title-hd h3{color: #000;font-family:'DM Sans';font-size: 100px;font-style: normal;font-weight:700;line-height: 94px;letter-spacing: -7px; margin-bottom: 30px;}
+.title-hd p{color: #000;text-align: center;font-size: 24px;font-style: normal;font-weight: 300;line-height: 31px;letter-spacing: -0.72px;}
+
+.Label-section h4{color: #000;font-family:'DM Sans';font-size: 32px;font-style: normal;font-weight: 600;line-height: normal;letter-spacing: -1.28px; margin-bottom: 20px; margin-top: 30px;}
+.label-box{position: relative; overflow: hidden; margin-bottom: 30px;} 
+.label-box h5{color: #121211;font-family:'DM Sans';font-size: 18px;font-style: normal;font-weight: 500;line-height: normal;letter-spacing: -0.72px;}
+.toparrow{position: absolute; top: 20px; right: 20px; z-index: 2;}
+
+.productimg img{height: 570px;}
+
+
+/*----product Detail page-------*/
+.product-detail{padding: 120px 0px 90px; position: relative;}
+.Wrap-banner{position: relative;}
+.Wrap-hd{position: absolute; top: 20%; left:30px; z-index: 9;}
+.Wrap-hd h5{color: #0E5531;font-family:'DM Sans';font-size: 16px;font-style: normal;font-weight: 400;line-height: normal;letter-spacing: -0.64px;}
+.Wrap-hd h2{color: #121211;font-size: 92px;font-style: normal;line-height: 98px;letter-spacing: -3.68px;}
+
+.wrap-p{margin-top: 90px;}
+.wrap-p p{color: #000;text-align: center;font-family:'DM Sans';font-size: 24px;font-style: normal;font-weight: 300;line-height: 34px;letter-spacing: -0.96px;}
+
+
+.table-section{position: relative; padding: 0px 0px 90px;}
+.table-scroll .table>thead {background-color: #F9FAFB; vertical-align: middle;}
+.table-scroll .table>:not(caption)>*>*{background-color: transparent;}
+.table-scroll td{color: #090909; font-size: 14px; font-weight: 400;}
+.table-scroll {max-width: 100%;overflow-x: auto; white-space: nowrap; border-radius:9px;border: 1px solid#EAECF0;}
+.table-scroll .table {width: 100%;min-width: 1000px;border-collapse: collapse;  margin: 0px;}
+.table-scroll .table th, .table td {padding: 12px 24px;text-align: left;    vertical-align: middle; height: 45px;}
+.table-scroll th{color: #000;font-family:'DM Sans';font-size: 16px;font-style: normal;font-weight: 700;line-height: normal;letter-spacing: -0.32px;text-transform: capitalize;}
+.table-scroll td{color: #000;font-family:'DM Sans';font-size: 14px;font-style: normal;font-weight: 300;}
+.table-scroll a.btn.Download {border-radius: 21.5px;background: #F2F2F2; width: 126px;height: 43px; border: 0px;color: #000;font-family:'DM Sans';font-size: 14px;font-style: normal;font-weight: 300;line-height: 30px;letter-spacing: -0.42px;}
+
+.features-section{position: relative; padding: 0px 0px 90px;}
+
+.features-img{position: relative;}
+.Key-cnt{position: absolute; top: 10px; left: 30px; z-index: 2;}
+.Key-cnt h4{color: #000;font-family:'FoundersGrotesk-Regular';font-size: 40px;font-style: normal;font-weight: 500;line-height: 40px;letter-spacing: -2px;}
+.Key-cnt .column2{column-count: 2;}
+.Key-cnt li{color: #000;font-family:'FoundersGrotesk-Regular';font-size: 24px;font-style: normal;font-weight: 300;line-height: 25px;letter-spacing: -1.2px;}
