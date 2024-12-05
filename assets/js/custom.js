@@ -134,7 +134,7 @@ owl.owlCarousel({
     smartSpeed:450,
     autoplay:true,
     autoplayTimeout:5000,
-    margin:30,
+    margin:20,
     responsive:{
     320:{items:1},
     480:{items:1},
