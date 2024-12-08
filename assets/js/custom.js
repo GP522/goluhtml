@@ -120,7 +120,7 @@ owl.owlCarousel({
     480:{items:1},
     600:{items:2},      
     960:{items:3},
-    1200:{items:4.2}
+    1200:{items:4.5}
     
     }
   });
@@ -144,6 +144,42 @@ owl.owlCarousel({
     
     }
   });
+
+
+
+
+  //brandlogo slider
+
+  var brandlogo = $('.brandlogo'); 
+  brandlogo.owlCarousel({
+    loop:true,
+    nav:false,
+    dots:false,
+    smartSpeed:450,
+    autoplay:true,
+    autoplayTimeout:5000,
+    margin:0,
+    responsive:{
+    320:{items:1},
+    480:{items:1},
+    600:{items:2},      
+    960:{items:4},
+    1200:{items:5}
+    
+    }
+  });
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
