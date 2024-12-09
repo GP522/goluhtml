@@ -170,7 +170,25 @@ owl.owlCarousel({
   });
 
 
-
+  var reducedslider = $('.reducedslider'); 
+  reducedslider.owlCarousel({
+    loop:true,
+    nav:true,
+    dots:false,
+    smartSpeed:450,
+    autoplay:true,
+    autoplayTimeout:5000,
+    margin:30,
+    responsive:{
+    320:{items:1},
+    480:{items:1},
+    600:{items:1},      
+    960:{items:1},
+    1200:{items:2.2}
+    
+    }
+  });
+  
 
 
 
