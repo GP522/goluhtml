@@ -475,6 +475,14 @@ span.toparrow img {height: auto;}
 .pivotal-moments{position: relative; background:#F2F2F2; padding: 90px 0px;}
 .growing-cnt h5{color: #000;text-align: center;font-family:'DM Sans';font-size: 24px;font-style: normal;font-weight: 600;line-height: normal;letter-spacing: -0.72px;}
 .growing-cnt  h2{color: #000;text-align: center;font-size: 62px;font-style: normal;line-height: 74px;letter-spacing: -3.1px;}
+.growing-slider{position: relative;}
+.coast-warp{position: relative; border-left: 1px solid #DCDCDC; padding: 30px 20px;}
+.yearwarp{display: flex; align-items: baseline; gap: 0px 10px;}
+
+.growing-slider::after{content: ''; position: absolute; bottom: 0px; background: #CFCFCF; width: 100%; height: 1; z-index: 1;}
+
+.coast-warp span{color: #005430;text-align: center;font-family: "DM Sans";font-size: 29px;font-style: normal;font-weight: 300;line-height: 74px;letter-spacing: -1.45px;}
+.coast-warp p{color: #000;font-family: "DM Sans";font-size: 24px;font-style: normal;font-weight: 300;line-height: 29px;letter-spacing: -0.72px;}
 
 .footprint{position: relative; padding: 90px 0px;}
 .footprint h2{color: #000;font-size: 92px;font-style: normal;line-height: 90px;letter-spacing: -3.68px;}
