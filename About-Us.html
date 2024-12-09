@@ -118,11 +118,76 @@
         <h2>35 Years of building expertise and <br>
           growing with our clients</h2>
         <div class="growing-slider">
-          <div class="coast-warp">
-            <span class="yearwarp">1990 <img src="./assets/images/About/getty-img.jpg" alt=""></span>
-            <p>GulfPack was founded on the 
-              East Coast of KSA </p>
-          </div>
+          <div class="tabs-container">
+            <!-- Tab Content -->
+            <div class="tabs-content">
+                <div class="tab active">
+                    <div class="coast-warp">
+                        <span class="yearwarp">1990 <img src="./assets/images/About/getty-img.jpg" alt=""></span>
+                        <p>Content for on the East Coast of KSA </p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="coast-warp">
+                        <span class="yearwarp">1980 <img src="./assets/images/About/getty-img.jpg" alt=""></span>
+                        <p>Content for on the East Coast of KSA </p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="coast-warp">
+                        <span class="yearwarp">1980 <img src="./assets/images/About/getty-img.jpg" alt=""></span>
+                        <p>Content for on the East Coast of KSA </p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="coast-warp">
+                        <span class="yearwarp">1991 <img src="./assets/images/About/getty-img.jpg" alt=""></span>
+                        <p>Content for on the East Coast of KSA </p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="coast-warp">
+                        <span class="yearwarp">2021 <img src="./assets/images/About/getty-img.jpg" alt=""></span>
+                        <p>Content for on the East Coast of KSA </p>
+                    </div>
+                </div>
+    
+                <div class="tab">
+                    <div class="coast-warp">
+                        <span class="yearwarp">2022 <img src="./assets/images/About/getty-img.jpg" alt=""></span>
+                        <p>Content for on the East Coast of KSA </p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="coast-warp">
+                        <span class="yearwarp">2023 <img src="./assets/images/About/getty-img.jpg" alt=""></span>
+                        <p>Content for on the East Coast of KSA </p>
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="coast-warp">
+                        <span class="yearwarp">2024 <img src="./assets/images/About/getty-img.jpg" alt=""></span>
+                        <p>Content for on the East Coast of KSA </p>
+                    </div>
+                </div>
+    
+    
+            </div>
+    
+            <!-- Tab Links -->
+            <div class="tab-links-container">
+                <button class="tab-links active" aria-selected="true">
+                    <span>1990</span>
+                </button>
+                <button class="tab-links" aria-selected="false"><span>Tab 2</span></button>
+                <button class="tab-links" aria-selected="false"><span>Tab 3</span></button>
+                <button class="tab-links" aria-selected="false"><span>Tab 4</span></button>
+                <button class="tab-links" aria-selected="false"><span>Tab 5</span></button>
+                <button class="tab-links" aria-selected="false"><span>Tab 6</span></button>
+                <button class="tab-links" aria-selected="false"><span>Tab 7</span></button>
+                <button class="tab-links" aria-selected="false"><span>Tab 8</span></button>
+            </div>
+        </div>
         </div>
       </div>
     </div>
@@ -418,6 +483,54 @@
   <script src="./assets/js/jquery.fancybox.min.js"></script>
   <script src="./assets/js/owlcarousel/owl.carousel.js"></script>
   <script src="./assets/js/custom.js"></script>
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const tabLinks = document.querySelectorAll('.tab-links');
+        const tabs = document.querySelectorAll('.tab');
+        let currentIndex = 0;
+        const autoplayInterval = 3000;
+        let autoplay;
+
+        // Function to update the active tab
+        function switchTab(index) {
+            if (index < 0 || index >= tabs.length) return;
+
+            tabLinks.forEach((link, i) => {
+                link.classList.toggle('active', i === index);
+                link.setAttribute('aria-selected', i === index);
+            });
+            tabs.forEach((tab, i) => {
+                tab.classList.toggle('active', i === index);
+            });
+        }
+
+        // Event listeners for manual tab switching
+        tabLinks.forEach((link, index) => {
+            link.addEventListener('click', () => {
+                clearInterval(autoplay);
+                switchTab(index);
+                currentIndex = index;
+                autoplay = setInterval(autoSwitch, autoplayInterval);
+            });
+        });
+
+        // Function for automatic tab switching
+        function autoSwitch() {
+            currentIndex = (currentIndex + 1) % tabs.length;
+            switchTab(currentIndex);
+        }
+
+        // Start autoplay
+        autoplay = setInterval(autoSwitch, autoplayInterval);
+    });
+
+</script>
+
+
+
+
 
 </body>
 
