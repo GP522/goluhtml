@@ -259,7 +259,10 @@ input.wpcf7-form-control.wpcf7-submit.has-spinner.btn {
 
 .layer-grid2{display: grid; grid-template-columns: repeat(2 ,1fr); gap: 0px 20px;}
 .blog-box{position: relative; overflow: hidden; margin-top: 30px;}
-.blog-img {position: relative;}
+.blog-img {position: relative; }
+    .Label-section .blog-img{    background: #e8e8e8;
+      padding: 10px;
+      border-radius: 18px;}
 .blog-img img{border-radius: 18px;width: 100%;}
 span.featured {color: #FFF;font-family: 'DM Sans';font-size: 24px;font-weight: 500;line-height: normal;letter-spacing: -0.96px;position: absolute;bottom: 14px;z-index: 2;left: 20px;}
 .blog-cnt{padding-top: 12px;}
@@ -541,15 +544,17 @@ span.yearwarp {display: flex;align-items: baseline;gap: 0px 10px;margin-bottom: 
 .proudly-text h4{color:#121211;text-align: center;font-family:'FoundersGrotesk-Regular';font-size: 42px;font-style: normal;font-weight: 400;line-height: 42px;letter-spacing: -1.68px; width: 518px;height: 75px; margin:  0 auto;}
 .brand-logo{display: grid; grid-template-columns: repeat(4 ,1fr); width: 631.287px;margin:  0 auto;}
 .item-iso{margin: 80px 0px 40px;}
-.item-iso img{margin-bottom: 12px;}
+.item-iso img{margin-bottom: 12px;width: auto;}
 .item-iso p{color: var(--Black, #121211);text-align: center;font-size: 14px;font-style: normal;line-height: 19px;letter-spacing: -0.7px; width: 170px; margin:  0 auto;}
 a.Request{color:#121211;font-family:'DM Sans';font-size: 14px;font-style: normal;font-weight: 300;line-height: 32px;letter-spacing: -0.7px; text-decoration: none;}
-a.Request img{margin-right: 5px;}
+a.Request img{margin-right: 5px; width: auto;}
 
 .technology.innovation {background: #000;position: relative; padding: 90px 0px 140px;}
 .technology::after {content: '';position: absolute;top: 0px;right: 0px;background-image: url(../images/About/H-vectorbg.svg);width: 760px;height: 1430px;background-position: center;background-size: cover;}
 .technology.innovation .our-grid{border-color:#101010;}
 .tittle-hd h4{color: #FFF;font-family:'FoundersGrotesk-Regular';font-size: 42px;font-style: normal;font-weight: 400;line-height: normal;letter-spacing: -1.68px; width:520px; margin-top: 50px;}
+.teamslider5 .blog-img { margin-bottom: 12px;
+}
 
 .teamslider5 p{color:#F2F2F2;}
 .stringent{max-width: 800px; margin-left: auto; margin-top: 50px;}
