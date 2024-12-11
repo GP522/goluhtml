@@ -191,18 +191,6 @@ owl.owlCarousel({
   
 
 
-
-
-
-
-
-
-
-
-
-
-
-
   document.addEventListener("DOMContentLoaded", () => {
     const slides = document.querySelectorAll(".slide");
     const timeDots = document.querySelectorAll(".time-dot");
