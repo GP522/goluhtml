@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>About Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="icon" href="images/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="./assets/js/owlcarousel/owl.carousel.css">
+  <link rel="stylesheet" href="./assets/css/fontawesome-all.min.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/custom.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/responsive.css">
+  <link rel="stylesheet" href="https://use.typekit.net/rnh0hei.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+  <div class="pivotal-moments">
+    <div class="container">
+      <div class="growing-cnt">
+        <h5>Pivotal Moments</h5>
+        <h2>35 Years of building expertise and <br>
+          growing with our clients</h2>
+          </div>
+      <div class="time-line">
+        <div class="controls" data-direction="-1"></div>
+        <div class="controls next" data-direction="1"></div>
+        <div class="dates-overflow">
+
+
+          <div class="dates-wrap" style="transform: translateX(0px);">
+            <div class="date">
+              <div class="date-year">
+                <p>1989</p>
+              </div>
+              <div class="date-content">
+                <div class="date-image">
+                  <span class="yearwarp">1989 <img src="./assets/images/About/getty-img.jpg" alt=""></span> 
+                </div>
+                <div class="date-text">GulfPack was founded on the East Coast of KSA</div>
+              </div>
+            </div>
+            <div class="date active">
+              <div class="date-year">
+                <p>1990</p>
+              </div>
+              <div class="date-content">
+                <div class="date-image"><span class="yearwarp">1990 <img src="./assets/images/About/getty-img.jpg" alt=""></span></div>
+                <div class="date-text">GulfPack was founded on the East Coast of KSA</div>
+              </div>
+            </div>
+            <div class="date">
+              <div class="date-year">
+                <p>1998</p>
+              </div>
+              <div class="date-content">
+                <div class="date-image"><span class="yearwarp">1998 <img src="./assets/images/About/getty-img.jpg" alt=""></span></div>
+                <div class="date-text">GulfPack was founded on the East Coast of KSA</div>
+              </div>
+            </div>
+            <div class="date">
+              <div class="date-year">
+                <p>2003</p>
+              </div>
+              <div class="date-content">
+                <div class="date-image"><span class="yearwarp">2003 <img src="./assets/images/About/getty-img.jpg" alt=""></span></div>
+                <div class="date-text">GulfPack was founded on the East Coast of KSA</div>
+              </div>
+            </div>
+            <div class="date">
+              <div class="date-year">
+                <p>2008</p>
+              </div>
+              <div class="date-content">
+                <div class="date-image"><span class="yearwarp">2008 <img src="./assets/images/About/getty-img.jpg" alt=""></span></div>
+                <div class="date-text">GulfPack was founded on the East Coast of KSA</div>
+              </div>
+            </div>
+            <div class="date">
+              <div class="date-year">
+                <p>2010</p>
+              </div>
+              <div class="date-content">
+                <div class="date-image"><span class="yearwarp">2010 <img src="./assets/images/About/getty-img.jpg" alt=""></span></div>
+                <div class="date-text">GulfPack was founded on the East Coast of KSA</div>
+              </div>
+            </div>
+            <div class="date">
+              <div class="date-year">
+                <p>2012</p>
+              </div>
+              <div class="date-content">
+                <div class="date-image"><span class="yearwarp">2012 <img src="./assets/images/About/getty-img.jpg" alt=""></span></div>
+                <div class="date-text">GulfPack was founded on the East Coast of KSA</div>
+              </div>
+            </div>
+            <div class="date">
+              <div class="date-year">
+                <p>2013</p>
+              </div>
+              <div class="date-content">
+                <div class="date-image"><span class="yearwarp">2013 <img src="./assets/images/About/getty-img.jpg" alt=""></span></div>
+                <div class="date-text">GulfPack was founded on the East Coast of KSA</div>
+              </div>
+            </div>
+            <div class="date">
+              <div class="date-year">
+                <p>2022</p>
+              </div>
+              <div class="date-content">
+                <div class="date-image"><span class="yearwarp">2022 <img src="./assets/images/About/getty-img.jpg" alt=""></span></div>
+                <div class="date-text">GulfPack was founded on the East Coast of KSA</div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div><!--pivotal-moments--->
+
+
+
+
+  <script src="./assets/js/jquery-3.6.3.js"></script>
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/jquery.fancybox.min.js"></script>
+  <script src="./assets/js/owlcarousel/owl.carousel.js"></script>
+  <script src="./assets/js/custom.js"></script>
+
+
+  <script>
+    window.addEventListener('load', function () {
+  const dates = document.querySelectorAll('.date');
+  const controls = document.querySelectorAll('.controls');
+  let activeDate = 0;
+  let autoplayInterval;
+  const autoplayDelay = 3000; // Delay in milliseconds (3 seconds)
+
+  function changeDate(index) {
+    if (index < 0) index = 0;
+    if (index >= dates.length) index = dates.length - 1;
+
+    dates.forEach((date, i) => {
+      date.classList.remove('active', 'sibling');
+      if (i === index) {
+        date.classList.add('active');
+      } else if (i === index - 1 || i === index + 1) {
+        date.classList.add('sibling');
+      }
+    });
+  }
+
+  function startAutoplay() {
+    stopAutoplay(); // Ensure no duplicate intervals are running
+    autoplayInterval = setInterval(() => {
+      activeDate = (activeDate + 1) % dates.length; // Loop back to the start
+      changeDate(activeDate);
+    }, autoplayDelay);
+  }
+
+  function stopAutoplay() {
+    clearInterval(autoplayInterval);
+  }
+
+  dates.forEach((date, index) => {
+    date.addEventListener('click', () => {
+      activeDate = index;
+      changeDate(activeDate);
+      startAutoplay(); // Restart autoplay after manual interaction
+    });
+  });
+
+  controls.forEach(control => {
+    control.addEventListener('click', () => {
+      const direction = parseInt(control.dataset.direction);
+      activeDate += direction;
+      if (activeDate < 0) activeDate = 0;
+      if (activeDate >= dates.length) activeDate = dates.length - 1;
+      changeDate(activeDate);
+      startAutoplay(); // Restart autoplay after manual interaction
+    });
+  });
+
+  // Start autoplay when the page loads
+  startAutoplay();
+});
+
+  </script>
+
+
+
+
+
+</body>
+
+</html>
