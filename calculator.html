@@ -75,18 +75,81 @@
 
   <div class="calculator-sec">
     <div class="container">
-      <div class="type-warp">
-        <h4>Choose Calculator Type</h4>
-        <div class="Barrier">
-        <ul>
-          <li><a href="#" class="item-active">Barrier Calculator</a></li>
-          <li><a href="#">Length To OD</a></li>
-          <li><a href="#">OD to Length</a></li>
-          <li><a href="#">Weight Calculator</a></li>
-          <li><a href="#">No. Of Rolls</a></li>
-        </ul>
+      <div class="d-flex align-items-start">
+        <div class="nav flex-column type-warp nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+          <h4>Choose Calculator Type</h4>
+          <div class="Barrier">
+            <ul>
+              <li><a href="#" class="nav-link active" id="v-pills-Barrier-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-Barrier" type="button" role="tab" aria-controls="v-pills-Barrier"
+                  aria-selected="true">Barrier Calculator</a></li>
+
+              <li><a href="#" class="nav-link" id="v-pills-Length-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-Length" type="button" role="tab" aria-controls="v-pills-Length"
+                  aria-selected="false">Length To OD</a></li>
+
+              <li><a href="#" class="nav-link" id="v-pills-odto-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-odto" type="button" role="tab" aria-controls="v-pills-odto"
+                  aria-selected="false">OD to Length</a></li>
+
+              <li><a href="#" class="nav-link" id="v-pills-Weight-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-Weight" type="button" role="tab" aria-controls="v-pills-Weight"
+                  aria-selected="false">Weight Calculator</a></li>
+
+              <li><a href="#" class="nav-link" id="v-pills-Rolls-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-Rolls" type="button" role="tab" aria-controls="v-pills-Rolls"
+                  aria-selected="false">No. Of Rolls</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tab-content" id="v-pills-tabContent">
+
+          <div class="tab-pane fade show active" id="v-pills-Barrier" role="tabpanel"
+            aria-labelledby="v-pills-Barrier-tab">
+            <div class="Calculator-body">
+              <div class="Metric-wrap">
+                <h5>Barrier Calculator</h5>
+                <span><div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                    value="option1" checked>
+                  <label class="form-check-label" for="inlineRadio1">Metric</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                    value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Imperial</label>
+                </div></span>
+                
+
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="v-pills-Length" role="tabpanel" aria-labelledby="v-pills-Length-tab">...
+            Length
+          </div>
+          <div class="tab-pane fade" id="v-pills-odto" role="tabpanel" aria-labelledby="v-pills-odto-tab">
+            OD to Length
+          </div>
+          <div class="tab-pane fade" id="v-pills-Weight" role="tabpanel" aria-labelledby="v-pills-Weight-tab">
+            Weight Calculator
+          </div>
+          <div class="tab-pane fade" id="v-pills-Rolls" role="tabpanel" aria-labelledby="v-pills-Rolls-tab">
+            Rolls Calculator
+          </div>
+        </div>
       </div>
-      </div>
+
+
+
+
+
+
+
+
+
+
     </div>
   </div><!--calculator-->
 

@@ -614,6 +614,21 @@ a.Request img{margin-right: 5px; width: auto;}
 .type-warp {border-radius: 18px;background: #FFFCFC;width: 317px;height: 534px;    padding: 20px 0px 20px 20px;}
 .type-warp h4{color: #000;font-family: 'DM Sans';font-size: 24px;font-style: normal;font-weight: 600;line-height: normal;letter-spacing: -1.2px; margin-bottom: 20px;}
 
-.Barrier li a {border-radius: 6px;width: 303px;height: 52px;color: #000;font-size: 18px;
-  font-weight: 300;letter-spacing: -0.9px;display: block;margin-bottom: 12px;line-height: 52px;text-decoration: none;padding: 0px 15px;}
-  .Barrier li .item-active{background: #F2F2F2; font-weight: 500;}
+.type-warp .nav-link{border-radius: 6px;width: 303px;height: 52px;color: #000;font-size: 18px;
+  font-weight: 300;letter-spacing: -0.9px;display: block;line-height: 52px;text-decoration: none;padding: 0px 15px;}
+  .type-warp.nav-pills .nav-link.active, .nav-pills .show>.nav-link{background-color: #F2F2F2; font-weight: 500; color: #000;}
+  
+  .Calculator-body{padding: 30px; position: relative;}
+  .Metric-wrap {display: flex; align-items: center; gap: 0px 60px;}
+  .Metric-wrap h5{color: #000;font-family: "DM Sans";font-size: 24px;font-style: normal;font-weight: 600;letter-spacing: -1.2px; margin: 0px;}
+  .Metric-wrap .form-check-inline {position: relative; padding: 0px;}
+  
+  .Metric-wrap .form-check-input {position: absolute;opacity: 0;width: 0;height: 0;}
+  .Metric-wrap .form-check-input:checked + .form-check-label {position: relative;background-color: #000;color: #fff;border-color: #000;}
+  .Metric-wrap .form-check-label {display: inline-block;cursor: pointer;padding: 10px 18px;border-radius: 6px;border: 1px solid #C6C6C6;transition: background-color 0.3s, color 0.3s, border-color 0.3s;}
+  .Metric-wrap .form-check-label::before {content: '';display: inline-block;width: 16px;height: 16px;
+    background-image: url("../images/Imperial.svg");background-size: contain;background-repeat: no-repeat;background-position: center;border-radius: 50%;
+    margin-right: 10px;vertical-align: middle;}
+  .Metric-wrap .form-check-input:checked + .form-check-label::before {background-image: url(../images/Metric.svg);border-color: black;}
+  
+    
