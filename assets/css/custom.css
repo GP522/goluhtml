@@ -606,8 +606,14 @@ a.Request img{margin-right: 5px; width: auto;}
 
 
 /*-------Calculator_1-------*/
-.calculator-banner{padding: 120px 0px; position: relative; background: #005430;}
-.hub2{color: #FFF;width: 525px;}
+.calculator-banner{padding: 180px 0px 80px; position: relative; background: #005430;}
+.leadership .hub2{color: #FFF;width: 525px;}
 
-.calculator-sec{position: relative;}
-.type-warp h4{}
+.calculator-sec{position: relative; background: #F2F2F2; padding: 30px; border-radius: 18px;}
+
+.type-warp {border-radius: 18px;background: #FFFCFC;width: 317px;height: 534px;    padding: 20px 0px 20px 20px;}
+.type-warp h4{color: #000;font-family: 'DM Sans';font-size: 24px;font-style: normal;font-weight: 600;line-height: normal;letter-spacing: -1.2px; margin-bottom: 20px;}
+
+.Barrier li a {border-radius: 6px;width: 303px;height: 52px;color: #000;font-size: 18px;
+  font-weight: 300;letter-spacing: -0.9px;display: block;margin-bottom: 12px;line-height: 52px;text-decoration: none;padding: 0px 15px;}
+  .Barrier li .item-active{background: #F2F2F2; font-weight: 500;}
