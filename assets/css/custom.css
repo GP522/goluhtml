@@ -603,3 +603,11 @@ a.Request img{margin-right: 5px; width: auto;}
 .head-bottom h6 span{font-weight: 400; display: block;}
 .our-cnt {flex: 1;}
 .our-img{flex: 1;}
+
+
+/*-------Calculator_1-------*/
+.calculator-banner{padding: 120px 0px; position: relative; background: #005430;}
+.hub2{color: #FFF;width: 525px;}
+
+.calculator-sec{position: relative;}
+.type-warp h4{}
