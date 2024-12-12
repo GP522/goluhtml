@@ -609,7 +609,7 @@ a.Request img{margin-right: 5px; width: auto;}
 .calculator-banner{padding: 180px 0px 80px; position: relative; background: #005430;}
 .leadership .hub2{color: #FFF;width: 525px;}
 
-.calculator-sec{position: relative; background: #F2F2F2; padding: 30px; border-radius: 18px;}
+.calculator-sec{position: relative; background: #F2F2F2; padding: 30px; border-radius: 18px; width:1140px; margin: 0 auto; position: relative; margin-top: -5%; margin-bottom: 90px;}
 
 .type-warp {border-radius: 18px;background: #FFFCFC;width: 317px;height: 534px;    padding: 20px 0px 20px 20px;}
 .type-warp h4{color: #000;font-family: 'DM Sans';font-size: 24px;font-style: normal;font-weight: 600;line-height: normal;letter-spacing: -1.2px; margin-bottom: 20px;}
