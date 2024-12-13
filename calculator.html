@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Gulf Pack Calculator</title>
+  <title>Calculator</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <link rel="icon" href="images/favicon.svg" type="image/x-icon">
@@ -75,6 +75,7 @@
 
   <div class="calculator-sec">
     <div class="container">
+      <div class="imperial-werp">
       <div class="d-flex align-items-start">
         <div class="nav flex-column type-warp nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
           <h4>Choose Calculator Type</h4>
@@ -104,51 +105,391 @@
         </div>
 
         <div class="tab-content" id="v-pills-tabContent">
-
           <div class="tab-pane fade show active" id="v-pills-Barrier" role="tabpanel"
             aria-labelledby="v-pills-Barrier-tab">
-            <div class="Calculator-body">
-              <div class="Metric-wrap">
-                <h5>Barrier Calculator</h5>
-                <span><div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
-                    value="option1" checked>
-                  <label class="form-check-label" for="inlineRadio1">Metric</label>
+            <div class="row">
+              <div class="col-md-8">
+                <div class="Calculator-body">
+                  <div class="Metric-wrap">
+                    <h5>Barrier Calculator</h5>
+                    <span>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                          value="option1" checked>
+                        <label class="form-check-label" for="inlineRadio1">Metric</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                          value="option2">
+                        <label class="form-check-label" for="inlineRadio2">Imperial</label>
+                      </div>
+                    </span>
+                  </div>
+
+                  <div class="moisture-tabs">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-Moisture-tab" data-bs-toggle="pill"
+                          data-bs-target="#pills-Moisture" type="button" role="tab" aria-controls="pills-Moisture"
+                          aria-selected="true">Moisture Barrier (WVTR)</button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-Oygen-tab" data-bs-toggle="pill"
+                          data-bs-target="#pills-Oygen" type="button" role="tab" aria-controls="pills-Oygen"
+                          aria-selected="false">Oygen Barrier
+                          (OTR)</button>
+                      </li>
+                    </ul>
+
+                    <div class="tab-content" id="pills-tabContent">
+                      <div class="tab-pane fade show active" id="pills-Moisture" role="tabpanel"
+                        aria-labelledby="pills-Moisture-tab">
+                        <div class="form-field">
+                          <form>
+                            <div class="row">
+                              <div class="com-md-12 group-from">
+                                <label>Barrier 1</label>
+                                <input type="text" name="" class="form-control" placeholder="g/m2/24h">
+                              </div>
+                              <div class="com-md-12 group-from">
+                                <label>Barrier 2</label>
+                                <input type="text" name="" class="form-control" placeholder="g/m2/24h">
+                              </div>
+                              <div class="com-md-12 group-from">
+                                <input type="text" name="" class="form-control addbarrier" placeholder="Add Barrier">
+                              </div>
+                              <div class="com-md-12 group-from">
+                                <button type="button" class="btn">Calculate WVTR</button>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+
+                      <div class="tab-pane fade" id="pills-Oygen" role="tabpanel" aria-labelledby="pills-Oygen-tab">
+                        <div class="form-field">
+                          <form>
+                            <div class="row">
+                              <div class="com-md-12 group-from">
+                                <label>Barrier 3</label>
+                                <input type="text" name="" class="form-control" placeholder="g/m2/24h">
+                              </div>
+                              <div class="com-md-12 group-from">
+                                <label>Barrier 4</label>
+                                <input type="text" name="" class="form-control" placeholder="g/m2/24h">
+                              </div>
+                              <div class="com-md-12 group-from">
+                                <input type="text" name="" class="form-control addbarrier" placeholder="Add Barrier">
+                              </div>
+                              <div class="com-md-12 group-from">
+                                <button type="button" class="btn">Calculate WVTR</button>
+                              </div>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
-                    value="option2">
-                  <label class="form-check-label" for="inlineRadio2">Imperial</label>
-                </div></span>
-                
-
               </div>
-            </div>
-          </div>
 
-          <div class="tab-pane fade" id="v-pills-Length" role="tabpanel" aria-labelledby="v-pills-Length-tab">...
-            Length
-          </div>
+              <div class="col-md-4">
+                <div class="barrier-total">
+                  <h5>Results</h5>
+                  <h3>Barrier Total
+                    (WVTR)</h3>
+                  <p>0.5</p>
+                </div>
+              </div>
+
+
+            </div><!--row-->
+          </div><!----close--Barrier--->
+
+          <div class="tab-pane fade" id="v-pills-Length" role="tabpanel" aria-labelledby="v-pills-Length-tab">
+            <div class="row">
+              <div class="col-md-8">
+                <div class="Calculator-body">
+                  <div class="Metric-wrap">
+                    <h5>Length to OD</h5>
+                    <span>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                          value="option1">
+                        <label class="form-check-label" for="inlineRadio3">Metric</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4"
+                          value="option2">
+                        <label class="form-check-label" for="inlineRadio4">Imperial</label>
+                      </div>
+                    </span>
+                  </div>
+
+                  <div class="Length-tabs">
+                    <div class="form-field">
+                      <form>
+                        <div class="row">
+                          <div class="com-md-12 group-from">
+                            <label>Thickness (μ)</label>
+                            <input type="text" name="" class="form-control" placeholder="">
+                          </div>
+                          <div class="com-md-12 group-from">
+                            <label>Length</label>
+                            <input type="text" name="" class="form-control" placeholder="642 Mtr">
+                          </div>
+                          <div class="com-md-12 group-from">
+                            <label>I.D.</label>
+                            <input type="text" name="" class="form-control" placeholder="Inch">
+                          </div>
+
+                          <div class="com-md-12 group-from">
+                            <label>Wall Thickness</label>
+                            <input type="text" name="" class="form-control" placeholder="mm">
+                          </div>
+
+                          <div class="com-md-12 group-from">
+                            <button type="button" class="btn">Calculate OD</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="barrier-total">
+                  <h5>Results</h5>
+                  <h3>OD</h3>
+                  <p><span>579.6 mm</span>
+                    <span>22.8 inch</span>
+                    <span>1.9 ft</span>
+                    <span>0.6 mtr</span>
+                  </p>
+                </div>
+              </div>
+
+
+            </div><!--row-->
+          </div><!--Length-->
+
           <div class="tab-pane fade" id="v-pills-odto" role="tabpanel" aria-labelledby="v-pills-odto-tab">
-            OD to Length
-          </div>
+            <div class="row">
+              <div class="col-md-8">
+                <div class="Calculator-body">
+                  <div class="Metric-wrap">
+                    <h5>Length to OD</h5>
+                    <span>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5"
+                          value="option1">
+                        <label class="form-check-label" for="inlineRadio5">Metric</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6"
+                          value="option2">
+                        <label class="form-check-label" for="inlineRadio6">Imperial</label>
+                      </div>
+                    </span>
+                  </div>
+
+                  <div class="Length-tabs">
+                    <div class="form-field">
+                      <form>
+                        <div class="row">
+                          <div class="com-md-12 group-from">
+                            <label>Thickness (μ)</label>
+                            <input type="text" name="" class="form-control" placeholder="">
+                          </div>
+                          <div class="com-md-12 group-from">
+                            <label>Length</label>
+                            <input type="text" name="" class="form-control" placeholder="642 Mtr">
+                          </div>
+                          <div class="com-md-12 group-from">
+                            <label>I.D.</label>
+                            <input type="text" name="" class="form-control" placeholder="Inch">
+                          </div>
+
+                          <div class="com-md-12 group-from">
+                            <label>Wall Thickness</label>
+                            <input type="text" name="" class="form-control" placeholder="mm">
+                          </div>
+
+                          <div class="com-md-12 group-from">
+                            <button type="button" class="btn">Calculate OD</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="barrier-total">
+                  <h5>Results</h5>
+                  <h3>OD</h3>
+                  <p><span>579.6 mm</span>
+                    <span>22.8 inch</span>
+                    <span>1.9 ft</span>
+                    <span>0.6 mtr</span>
+                  </p>
+                </div>
+              </div>
+
+
+            </div><!--row-->
+          </div><!--Length to OD-->
+
           <div class="tab-pane fade" id="v-pills-Weight" role="tabpanel" aria-labelledby="v-pills-Weight-tab">
-            Weight Calculator
-          </div>
+            <div class="row">
+              <div class="col-md-8">
+                <div class="Calculator-body">
+                  <div class="Metric-wrap">
+                    <h5>Weight Calculator</h5>
+                    <span>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio7"
+                          value="option1">
+                        <label class="form-check-label" for="inlineRadio7">Metric</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio8"
+                          value="option2">
+                        <label class="form-check-label" for="inlineRadio8">Imperial</label>
+                      </div>
+                    </span>
+                  </div>
+
+                  <div class="Length-tabs">
+                    <div class="form-field">
+                      <form>
+                        <div class="row">
+                          <div class="com-md-12 group-from">
+                            <label>Thickness (μ)</label>
+                            <input type="text" name="" class="form-control" placeholder="">
+                          </div>
+                          <div class="com-md-12 group-from">
+                            <label>Length</label>
+                            <input type="text" name="" class="form-control" placeholder="642 Mtr">
+                          </div>
+                          <div class="com-md-12 group-from">
+                            <label>I.D.</label>
+                            <input type="text" name="" class="form-control" placeholder="Inch">
+                          </div>
+
+                          <div class="com-md-12 group-from">
+                            <label>Wall Thickness</label>
+                            <input type="text" name="" class="form-control" placeholder="mm">
+                          </div>
+
+                          <div class="com-md-12 group-from">
+                            <button type="button" class="btn">Calculate OD</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="barrier-total">
+                  <h5>Results</h5>
+                  <h3>OD</h3>
+                  <p><span>579.6 mm</span>
+                    <span>22.8 inch</span>
+                    <span>1.9 ft</span>
+                    <span>0.6 mtr</span>
+                  </p>
+                </div>
+              </div>
+
+            </div><!--row-->
+          </div><!--Weight Calculator-->
+
           <div class="tab-pane fade" id="v-pills-Rolls" role="tabpanel" aria-labelledby="v-pills-Rolls-tab">
-            Rolls Calculator
-          </div>
+            <div class="row">
+              <div class="col-md-8">
+                <div class="Calculator-body">
+                  <div class="Metric-wrap">
+                    <h5>No. Of Rolls</h5>
+                    <span>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio9"
+                          value="option1">
+                        <label class="form-check-label" for="inlineRadio9">Metric</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio10"
+                          value="option2">
+                        <label class="form-check-label" for="inlineRadio10">Imperial</label>
+                      </div>
+                    </span>
+                  </div>
+
+                  <div class="Length-tabs">
+                    <div class="form-field">
+                      <form>
+                        <div class="row">
+                          <div class="com-md-12 group-from">
+                            <label>Thickness (μ)</label>
+                            <input type="text" name="" class="form-control" placeholder="">
+                          </div>
+                          <div class="com-md-12 group-from">
+                            <label>Length</label>
+                            <input type="text" name="" class="form-control" placeholder="642 Mtr">
+                          </div>
+                          <div class="com-md-12 group-from">
+                            <label>I.D.</label>
+                            <input type="text" name="" class="form-control" placeholder="Inch">
+                          </div>
+
+                          <div class="com-md-12 group-from">
+                            <label>Wall Thickness</label>
+                            <input type="text" name="" class="form-control" placeholder="mm">
+                          </div>
+
+                          <div class="com-md-12 group-from">
+                            <button type="button" class="btn">Calculate OD</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="barrier-total">
+                  <h5>Results</h5>
+                  <h3>OD</h3>
+                  <p><span>579.6 mm</span>
+                    <span>22.8 inch</span>
+                    <span>1.9 ft</span>
+                    <span>0.6 mtr</span>
+                  </p>
+                </div>
+              </div>
+
+            </div><!--row-->
+          </div><!--No. Of Rolls-->
         </div>
       </div>
-
-
-
-
-
-
-
-
-
+    </div>
+      <div class="Disclaimer">
+        <p>Disclaimer: The calculators provided on this website are for informational purposes only and are intended to
+          assist with basic conversions and estimations. While we strive to ensure accuracy, we cannot guarantee that the
+          calculations will be free from errors or suitable for every specific use case. Users are advised to verify
+          results independently before relying on them for critical applications. By using these tools, you agree that our
+          company is not responsible for any inaccuracies or damages resulting from their use. For detailed technical
+          support, please contact our team at <a href="#">enquiry@gulfpack.com.sa.</a></p>
+      </div>
 
     </div>
   </div><!--calculator-->
