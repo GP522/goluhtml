@@ -133,10 +133,11 @@
       .leadership h2{font-size: 60px; line-height: normal;}
 
       .planned-sec{padding: 30px 0px;}
-      .growing-cnt h2{font-size: 50px;}
+      .growing-cnt h2{font-size: 40px; line-height: normal;}
       .growth-img{margin-bottom: 20px;}
       .proudly-text{top: 20px;}
       .item-iso{margin: 0px;}
+      .item-iso img{height: auto !important;}
       .proudly-text h4{font-size: 30px;}
 
       .leaders-bg{width: auto;}
@@ -145,6 +146,27 @@
       .latest-list::after{width: 100%;}
       .latest-list li span{font-size: 15px;}
       .teamslider1{padding: 0px 10px;}
+
+      .footprint{padding: 30px 0px;}
+      .footprint p{width: auto;font-size: 20px;}
+      .footprint h2{font-size: 60px; line-height: normal; }
+
+      .technology.innovation{padding: 60px 0px 80px;}
+      .tittle-hd {margin-bottom: 0px;position: relative;z-index: 99;}
+      .tittle-hd h2{font-size: 40px;}
+      .tittle-hd h4 {font-size: 28px;width: 430px;margin-top:0px;}
+      .leaders-bg{padding: 60px 20px;}
+      .item-logo{align-items: center; justify-content: center;}
+
+      .prodect-section {padding: 40px 15px;}
+      .stringent h4{font-size: 35px; margin: 0px;}
+      .stringent p{height:auto; width: auto;}
+      .about-hd h3{font-size: 50px; line-height: normal;}
+      #play-button img{max-width:80px;}
+      .bottomcnt h1{font-size: 35px; margin: 0px;}
+      .vision-section{padding:40px 0px;}
+      .vision-section p{font-size: 18px; line-height: normal; margin-bottom: 15px;}
+
 }
 
 
@@ -184,7 +206,7 @@
   .growthslider2 .owl-prev:before{bottom: -4%;}
   .below-btn{position: relative; bottom: 24px;}
 
-  .careers-banner{padding: 60px 20px 0px 20px;}
+  .careers-banner{padding: 60px 10px 0px 10px;}
   .leadership h2.team{width: auto;}
   .leadership .hub2{width: auto;}
   .leadership .hub2{font-size: 50px; line-height: normal;}
@@ -268,10 +290,26 @@
 
   .Apply-form p{font-size: 18px;}
   .Apply-form h2{font-size: 60px; line-height: normal;}
-
   .about-page{padding: 80px 0px;}
-
   .tittle-hd h2.hd2{width: auto;}
+  .brand-logo { grid-template-columns: repeat(2, 1fr); width: auto;}
+  .item-iso{margin-bottom: 20px;}
+  .proudly-text h4{height: auto; width: auto; font-size: 24px; margin-bottom: 15px;}
+  .Explore-img img {height: 400px;}
+  .technology::after{width: 100%; height: 100%;}
+  .stringent{margin-top: 30px; position: relative; z-index: 99;}
+  .stringent li{font-size: 16px; line-height: 40px;}
+  .reduced-box{padding: 10px;}
+  .our-cnt p{font-size: 16px;}
+  .head-bottom h6{font-size: 18px;}
+  .prodect-section .owl-prev:before{background-size: 45px; height: 45px; width: 45px;}
+  .prodect-section .owl-next:before{background-size: 45px; height: 45px; width: 45px;}
+
+  .leaders-section h4{font-size: 30px; line-height: normal;}
+  .mission-cnt{width: auto;}
+  .about-hd h3 {font-size: 40px;line-height: 34px;}
+
+  .fancybox-slide--iframe .fancybox-close-small, .fancybox-slide--image .fancybox-close-small, .fancybox-slide--video .fancybox-close-small{width: 110px; height: 110px;}
 
 
 }
@@ -313,10 +351,24 @@ video {height: 450px; border-radius: 0px;object-fit: cover;}
 .Explore-img img {height: 420px;}
 .gulfpackslider .owl-next:before {left: 15%;}
 
+.growing-cnt h2{font-size: 24px; letter-spacing: normal;}
+.footprint h2{font-size: 35px; letter-spacing: normal;}
+.capacity-cnt h4{font-size: 28px;}
+.capacity-cnt{top: 20px; left: 20px;}
+.proudly-text h4{font-size: 20px; letter-spacing: normal; line-height: normal;}
+.tittle-hd h2{font-size: 28px;}
+.tittle-hd h4{width: auto; font-size: 22px; letter-spacing: normal;}
+.stringent h4 {font-size: 26px; letter-spacing: normal; width: auto;}
+.stringent ul {column-count: 2;}
 
-
-
-
+.leaders-section h4{font-size: 24px;}
+.leaders-bg {padding: 30px 20px;}
+.reduced-box{display: block;}
+.head-bottom{position: relative; bottom: 0px;}
+.our-cnt p{margin: 10px 0px;}
+.our-cnt{padding: 12px;}
+.prodect-section .owl-prev:before{bottom: auto; top: 35%;}
+.prodect-section .owl-next::before{bottom: auto; top: 35%;}
 
 }
 
@@ -346,10 +398,12 @@ video {height: 450px; border-radius: 0px;object-fit: cover;}
 .form-details .form-control{height: 30px;}
 .title-hd h3{font-size: 30px;}
 .artical-page.border_bottom h2{font-size: 40px; letter-spacing: normal;}
+.about-hd h3 {font-size: 30px;line-height: 30px; letter-spacing: normal;}
+.hero-img img{width: 100%; height: 230px;}
 
 }
 
-@media (max-width:360.8px) {
+@media (max-width:376.8px) {
 .serve-list li a {font-size: 14px;}
 .planet-cnt h3 {font-size: 25px;}
 .partners-cnt p{font-size: 16px;}

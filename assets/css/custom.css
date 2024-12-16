@@ -285,7 +285,7 @@ select.form-select.addmember::after{content: ''; position: absolute; top: 0px; l
 .below-btn a.btn {color:#FFF;font-family:'DM Sans';font-size: 24px;font-style: normal;font-weight: 300;line-height: normal;letter-spacing: -1.2px; text-align: left; border: 0px;}
 .below-btn a.btn span{margin-top: 12px; display: block;} 
 
-.latest-section{position: relative; padding: 90px 0px; background: #fff;}
+.latest-section{position: relative; padding: 90px 0px; background: #fff; overflow: hidden;}
 .latest-section h2{color:#121211;font-size: 92px;letter-spacing: -4.6px;}
 .latest-list{padding: 40px 0px; position: relative;}
 .latest-list::after {content: '';position: absolute;bottom: 0px;left: -12%;width: 1400px;height: 1px;background: #F2F2F2;text-align: center;}
@@ -546,7 +546,7 @@ span.yearwarp img{border-radius: 18px;}
 
 
 
-.footprint{position: relative; padding: 90px 0px;}
+.footprint{position: relative; padding: 90px 0px; overflow: hidden;}
 .footprint h2{color: #000;font-size: 92px;font-style: normal;line-height: 90px;letter-spacing: -3.68px;}
 .footprint p{color: #121211;font-size: 24px;font-style: normal;line-height: 34px;letter-spacing: -1.2px; width: 516px;}
 .auth-wer img{width: 100%;}

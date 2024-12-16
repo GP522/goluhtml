@@ -118,7 +118,7 @@ slider3.owlCarousel({
   responsive: {
     320:{items:1},
       480:{items:1},
-      600:{items:1},      
+      600:{items:2},      
       960:{items:2},
       1200:{items:4.5}
 
@@ -162,7 +162,7 @@ brandlogo.owlCarousel({
   responsive: {
     320: { items: 1 },
     480: { items: 1 },
-    600: { items: 2 },
+    600: { items: 3 },
     960: { items: 3 },
     1200: { items: 5 }
 
@@ -182,8 +182,8 @@ reducedslider.owlCarousel({
   responsive: {
     320: { items: 1 },
     480: { items: 1 },
-    600: { items: 2 },
-    960: { items: 1 },
+    600: { items: 1 },
+    960: { items: 2 },
     1200: { items: 2.2 }
   }
 });
