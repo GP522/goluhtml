@@ -79,18 +79,68 @@
     .Explore-text li{font-size: 22px;}
     .Explore-text{top: 30px;}
     .Explore-text ul{margin-bottom: 12px;}
-
+    .ftr-logo img {max-width: 210px;}
 
     .product-detail {padding: 120px 0px 30px;}
     .wrap-p {margin-top:30px;}
     .table-section{padding: 0px 0px 30px;}
-    .Wrap-hd h2{font-size: 60px;}
+    .Wrap-hd h2{font-size: 60px; line-height: normal;}
+    .wrap-p p{font-size: 20px;}
     .gulfpack-section{padding: 40px 20px 80px 20px;}
     .gulfpack-section h2{font-size: 60px; line-height: normal;}
     .gulfpackslider .owl-next:before{left: 8%;}
     .gulfpackslider .owl-prev:before{left: 1%;}
     .support-text{left: 10px;}
+    .features-img{margin-bottom: 20px;}
+    .Explore-img{margin-top: 0px;}
+    .features-section{padding: 0px 0px 30px;}
 
+    .expo-section{width: auto;}
+    .event-text h3{font-size: 24px;}
+    .event-text li{font-size: 20px;}
+    .event-text .upper{margin: 20px 0px;}
+    .position-wer::after{top: -100px;}
+
+    .past-events{padding: 30px 0px;}
+    .past-events h2{font-size: 60px; line-height: normal;}
+    .Event-Gallery{padding: 0px 20px 30px 20px;}
+    .heading-top h2{font-size: 60px; line-height: normal;}
+
+    .item-growth h4{font-size: 24px;}
+    .item-growth::after{top: -20px;}
+    .growthslider2 .owl-next:before{left: 8%;}
+    .growth-section{padding: 50px 0px;}
+    .latest-section{padding: 30px 0px;}
+    .latest-section h2{font-size: 60px; line-height: normal;}
+    .latest-list{padding: 20px 0px;}
+    .tittle-hd h2.hd2{font-size: 40px; line-height: normal;}
+    .out-paragraph p{font-size: 16px;}
+    .our-cnt h4{font-size: 20px;}
+    .below-btn a.btn{font-size: 20px;}
+    .leadership h2.team{font-size: 60px; line-height: normal;}
+
+    .carees-succes h2{font-size: 60px; line-height: normal;}
+    .leadership .hub2{font-size: 60px;}
+    .imperial-werp .d-flex.align-items-start{display: block !important;}
+    .Calculator-body{padding: 30px 0px;}
+      .barrier-total{width: auto; padding: 40px 20px;}  
+      .barrier-total h3{font-size: 28px;}
+      .type-warp{width: 100%; height: auto; margin-top: auto; margin-bottom: 20px;}
+      .imperial-werp{padding: 20px;}
+      .Disclaimer{padding: 30px 0px;}
+
+
+      .leadership h2{font-size: 60px; line-height: normal;}
+
+      .planned-sec{padding: 30px 0px;}
+      .growing-cnt h2{font-size: 50px;}
+      .growth-img{margin-bottom: 20px;}
+      .proudly-text{top: 20px;}
+      .item-iso{margin: 0px;}
+      .proudly-text h4{font-size: 30px;}
+
+      .leaders-bg{width: auto;}
+      .teamslider5{padding: 0px 20px;}
 }
 
 
@@ -112,7 +162,44 @@
   .rightsidepl{left: 0px;}
   .title-hd h3{font-size: 50px; line-height: normal; letter-spacing: -1px;}
   .productimg img {width: 100%; height: auto;}
+  .Explore-text h3{font-size: 28px;}
+  .Explore-img img{height: 360px;}
+  a.Request img{height: auto;}
+  .Explore-text .btn.tools img{height: auto;}
+  .event-banner h2{top: 0px; font-size: 60px; line-height: normal;}
+  .expo-section{height: auto;}
+  .event-text {padding: 30px 0px 12px;}
+  .position-wer::after {top:0px;right:0px;width: 160px;height: 270px;background-position: center;background-size: cover;}
+
+  .heading-top h2{font-size: 60px; line-height: normal;}
+  .heading-top{margin-top: 0px;}
+  .pastevents-bg{padding: 30px 0px;}
+  .artical-page h3{line-height: normal; font-size: 60px;}
+
+  .growthslider2 .owl-next:before {left: 12%; bottom: -4%;}
+  .growthslider2 .owl-prev:before{bottom: -4%;}
+  .below-btn{position: relative; bottom: 24px;}
+
+  .careers-banner{padding: 60px 20px 0px 20px;}
+  .leadership h2.team{width: auto;}
+  .leadership .hub2{width: auto;}
+  .leadership .hub2{font-size: 50px; line-height: normal;}
+  .calculator-banner{padding: 60px 0px;}
+  .Metric-wrap{gap: 0px 5px;}
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
 
 @media (max-width:576.8px) {
   .innovation{padding: 30px 0px;} 
@@ -144,8 +231,45 @@
   .title-hd p br{display: none;}
   .product-page{padding: 40px 0px 0px;}
   .title-hd h2{font-size: 40px; line-height: normal;}
+  .product-detail {padding: 30px 0px 30px;}
+  .all-topics{margin-top: 30px;}
+  .Wrap-banner img{height: 260px;}
 
-   
+  .inner-banner{padding: 40px 0px;}
+  .artical-page.border_bottom h2{font-size: 60px; line-height: normal;}
+  .artical-page.border_bottom{    padding-bottom: 30px;}
+  .detail-warp {padding: 30px 0px 0px 0px;}
+  .privacy-text p{font-size: 16px;}
+  .privacy-text h6{font-size: 24px;}
+
+  .layer-grid2 {grid-template-columns: repeat(1, 1fr);}
+  .event-banner{padding: 120px 0px;}
+  .glimpse-img img {height:340px;position: absolute;top: 0px;right: 0px;}
+  .blog-box{margin-top: 20px;}
+  .artical-page h3{font-size: 40px; letter-spacing: normal;}
+  .artical-page h3 br{display: none;}
+
+  .article-post {padding: 20px 0px 0px;}
+
+  .corporate-layer {grid-template-columns: repeat(1, 1fr);padding-top: 30px;}
+  .locations-section h2{font-size: 40px; line-height: normal; margin-bottom: 0px;}
+  .corporate-box{ padding: 0px;}
+  .corporate-layer.border-0{padding-top: 30px;}
+  
+  .latest-section h2{font-size: 40px;}
+  .Apply-page{top: 20px;}
+  .carees-succes h2{font-size: 30px; letter-spacing: normal;}
+  .successfully img{max-width: 80px;}
+
+
+  .Apply-form p{font-size: 18px;}
+  .Apply-form h2{font-size: 60px; line-height: normal;}
+
+  .about-page{padding: 80px 0px;}
+
+
+
+
 }
 
 
@@ -173,6 +297,21 @@ video {height: 450px; border-radius: 0px;object-fit: cover;}
 .title-hd h3{font-size: 40px; margin-bottom: 10px;}
 .Label-section h4{font-size: 26px;}
 .productimg img{height: 340px;}
+.Wrap-hd h2{font-size: 40px; letter-spacing: normal;}
+.wrap-p p {line-height: normal;font-size: 16px; letter-spacing: normal;}
+.Key-cnt h4{font-size: 30px;}
+.Key-cnt li {margin-bottom: 20px;}
+.Key-cnt .column2 {column-count: 1;}
+.Key-cnt{left: 20px;}
+.Explore-text h3 br{display: none;}
+.Explore-text ul{column-count: 1;}
+.gulfpack-section h2{font-size: 40px;}
+.Explore-img img {height: 420px;}
+.gulfpackslider .owl-next:before {left: 15%;}
+
+
+
+
 
 
 }
@@ -202,7 +341,7 @@ video {height: 450px; border-radius: 0px;object-fit: cover;}
 .form-details textarea.form-control {min-height: 60px;}
 .form-details .form-control{height: 30px;}
 .title-hd h3{font-size: 30px;}
-
+.artical-page.border_bottom h2{font-size: 40px; letter-spacing: normal;}
 
 }
 
