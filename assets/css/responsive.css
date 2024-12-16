@@ -69,6 +69,28 @@
 
     .movie-animation{height: 826px;}
     .timeline{left: 0%; top: 98%;}
+    .layer-grid3 {grid-template-columns: repeat(2, 1fr);}
+    .title-hd h3{font-size: 80px; letter-spacing: -2px;}
+    .title-hd p br{display: none;}
+    .product-section{padding: 30px 0px;}
+    .explore-cnt.solve h5{font-size: 24px; line-height: normal;}
+    .productimg img{height: 380px;}
+    .Explore-text h3{font-size: 40px; line-height: normal; letter-spacing: normal;}
+    .Explore-text li{font-size: 22px;}
+    .Explore-text{top: 30px;}
+    .Explore-text ul{margin-bottom: 12px;}
+
+
+    .product-detail {padding: 120px 0px 30px;}
+    .wrap-p {margin-top:30px;}
+    .table-section{padding: 0px 0px 30px;}
+    .Wrap-hd h2{font-size: 60px;}
+    .gulfpack-section{padding: 40px 20px 80px 20px;}
+    .gulfpack-section h2{font-size: 60px; line-height: normal;}
+    .gulfpackslider .owl-next:before{left: 8%;}
+    .gulfpackslider .owl-prev:before{left: 1%;}
+    .support-text{left: 10px;}
+
 }
 
 
@@ -88,7 +110,8 @@
   .planet-img img{height: 380px;}
   .contact-adress{margin-top: 20px;}
   .rightsidepl{left: 0px;}
-
+  .title-hd h3{font-size: 50px; line-height: normal; letter-spacing: -1px;}
+  .productimg img {width: 100%; height: auto;}
 }
 
 @media (max-width:576.8px) {
@@ -112,7 +135,17 @@
   .ftr-logo {margin-bottom: 20px;}
 
   .contact-pages::after{width: 100%;}
-  
+  .layer-grid3 {grid-template-columns: repeat(1, 1fr);}
+  .label-box img{height: auto;}
+  .label-box{margin-bottom: 20px;}
+  .label-box h5{margin-bottom: 0px;}
+  .Label-section h4{margin-top: 20px;}
+  .title-hd p{font-size: 16px;}
+  .title-hd p br{display: none;}
+  .product-page{padding: 40px 0px 0px;}
+  .title-hd h2{font-size: 40px; line-height: normal;}
+
+   
 }
 
 
@@ -137,6 +170,10 @@ video {height: 450px; border-radius: 0px;object-fit: cover;}
 .partner-slider .item-card::after{height: 340px; width: 240px;}
 .movie-animation {height: 510px;}
 .timeline{top:96%;}
+.title-hd h3{font-size: 40px; margin-bottom: 10px;}
+.Label-section h4{font-size: 26px;}
+.productimg img{height: 340px;}
+
 
 }
 
@@ -164,7 +201,7 @@ video {height: 450px; border-radius: 0px;object-fit: cover;}
 .contact-pages .enquire p{font-size: 14px; line-height: 26px;}
 .form-details textarea.form-control {min-height: 60px;}
 .form-details .form-control{height: 30px;}
-
+.title-hd h3{font-size: 30px;}
 
 
 }
@@ -175,5 +212,6 @@ video {height: 450px; border-radius: 0px;object-fit: cover;}
 .partners-cnt p{font-size: 16px;}
 .industry-text h3 {font-size: 24px;}
 .copyright li a{font-size: 14px;}
+.explore-cnt.solve h5{font-size: 22px;}
 
 }
