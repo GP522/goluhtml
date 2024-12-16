@@ -141,6 +141,10 @@
 
       .leaders-bg{width: auto;}
       .teamslider5{padding: 0px 20px;}
+
+      .latest-list::after{width: 100%;}
+      .latest-list li span{font-size: 15px;}
+      .teamslider1{padding: 0px 10px;}
 }
 
 
@@ -267,7 +271,7 @@
 
   .about-page{padding: 80px 0px;}
 
-
+  .tittle-hd h2.hd2{width: auto;}
 
 
 }
