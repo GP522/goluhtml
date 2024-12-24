@@ -253,6 +253,7 @@ input.wpcf7-form-control.wpcf7-submit.has-spinner.btn {border: 0px;color: #fff;f
 .layer-grid2{display: grid; grid-template-columns: repeat(2 ,1fr); gap: 0px 20px;}
 .blog-box{position: relative; overflow: hidden; margin-top: 30px;}
 .blog-img {position: relative; }
+
 .Label-section .blog-img{background: #e8e8e8;padding: 10px;border-radius: 18px;}
 .blog-img img{border-radius: 18px;width: 100%;}
 span.featured {color: #FFF;font-family: 'DM Sans';font-size: 24px;font-weight: 500;line-height: normal;letter-spacing: -0.96px;position: absolute;bottom: 14px;z-index: 2;left: 20px;}
@@ -682,3 +683,101 @@ a.Request img{margin-right: 5px; width: auto;}
     }
   }
   
+
+  .planet-cnt a.btn img{height: auto;}
+
+
+
+
+/* General Dropdown Styles  golu css 24/12/24*/
+.navbar ul>li li a:hover{}
+/* Icon rotation when dropdown is open */
+a.dropdown-toggle i {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Initial state of the icon */
+a.dropdown-toggle i {
+  transition: transform 0.3s ease-in-out;
+  transform: rotate(0deg);
+}
+
+/* Rotate the icon on hover (desktop) */
+@media (min-width: 992px) {
+  .navbar ul > li:hover a.dropdown-toggle i {
+    transform: rotate(180deg);
+  }
+}
+
+
+/* Mobile styles */
+@media (max-width: 991.8px) {
+  a.dropdown-toggle i {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  /* Rotate the icon when the dropdown menu is visible */
+  a.dropdown-toggle.show i {
+    transform: rotate(180deg);
+  }
+}
+
+
+.navbar ul>li li a.dropdown-toggle::after {
+  margin-left: auto;
+}
+.navbar ul>li li:not(:last-child) {
+  border-bottom: 1px solid #005532;
+}
+.dropdown-toggle {
+  white-space: initial;
+}
+.dropdown .dropdown-menu {
+  margin: 0;
+  background: #fff;
+  min-width:180px;
+  border-radius: 5px;
+  transform: translateY(40px);
+  opacity: 0;
+  visibility: hidden;
+  left: 0px;
+  transition: .5s;
+  display: block;
+  border-color: #EFEFEF;
+  box-shadow: 0 8px 20px #0A0A0A;
+}
+.navbar ul>li:hover>ul {
+  transform: translateY(0px);
+  opacity: 1;
+  visibility: visible;
+}
+.navbar ul>li li:hover a.dropdown-toggle::after {
+  margin-left: auto;
+  transform: rotate(-90deg);
+}
+.dropdown-toggle::after {
+  opacity: 0;
+}
+.navbar ul>li li a::before {
+  opacity: 0;
+}
+
+/* Mobile Styles */
+@media (max-width: 991.8px) {
+  .navbar ul>li {
+      position: relative;
+  }
+  .dropdown .dropdown-menu {
+      display: none;
+      padding: 0px;
+  }
+  .navbar ul>li.open .dropdown-menu {
+      display: block;
+  }
+  .dropdown .dropdown-menu li a{padding: 5px; color: #005430 !important;}
+  ul.dropdown-menu.show {    transform: translateY(0px);
+    opacity: 1;
+    display: block;
+}
+}
+

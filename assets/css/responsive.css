@@ -48,6 +48,7 @@
 
 @media (max-width:991.8px) {
     .navbar-collapse {position: absolute;top: 100%;width: 100%;z-index: 9999;background:#101111;left: 0px; z-index: 9999;}
+	nav.menu-top-menu-container{right:0px;}
     .header-menu .navbar-nav li a {padding: 14px 20px; font-size: 16px; color: #fff;}
     .header-menu li.nav-item {border-bottom: 1px solid #fff;}
     .bottomcnt{z-index: 1;}
@@ -208,7 +209,7 @@
 
 
 @media (max-width:767.8px) {
-  .bottomcnt{bottom: 12px;}
+  .bottomcnt{bottom: 25px;}
   .bottomcnt h1 {font-size: 35px;}
   .tittle-hd h2{font-size: 45px; margin-bottom: 15px;}
   .tittle-hd p{font-size: 16px;}
@@ -248,7 +249,7 @@
   .calculator-banner{padding: 60px 0px;}
   .Metric-wrap{gap: 0px 5px;}
 
-
+	div#filters .form-select{margin-bottom:15px;}
 
 
 
@@ -346,7 +347,12 @@
 
   .fancybox-slide--iframe .fancybox-close-small, .fancybox-slide--image .fancybox-close-small, .fancybox-slide--video .fancybox-close-small{width: 110px; height: 110px;}
 
-
+	.planet-wer img{height:540px;}
+	.video-section{padding-bottom:90%;}
+	
+	.planet-cnt h3{max-width:220px;}
+	.timeline{top:90%;}
+	
 }
 
 
