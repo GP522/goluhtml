@@ -457,7 +457,7 @@ span.toparrow img {height: auto;}
 .gulfpack-section{padding: 90px 0px; position: relative;background: #F2F2F2;}
 .gulfpack-section h2{color: #121211;font-size: 92px;font-style: normal;line-height: 90px;letter-spacing: -3.68px; margin-bottom: 30px;}
 
-.gulfpackslider {max-width: 1305px;margin-left: auto;}
+.gulfpackslider {max-width: 1240px;margin-left: auto;}
 .gulfpackslider .owl-next:before {content: '';background-image: url(../images/preview-right.svg);background-repeat: no-repeat;position: absolute;bottom: -8%;left:5%;width: 35px;height: 35px;background-size: 35px;}
 .gulfpackslider .owl-prev:before {content: '';background-image: url(../images/preview-left.svg);background-repeat: no-repeat;position: absolute;bottom: -8%;left:0%;width: 35px;height: 35px;background-size: 35px;}
 .gulfpackslider .owl-theme .owl-controls .owl-nav div {height: 0px !important;}
@@ -781,3 +781,10 @@ a.dropdown-toggle i {
 }
 }
 
+.mobileslider{display: none;}
+.mobileslider .owl-theme .owl-controls .owl-nav div{height: 0px !important; display: none;}
+.mobileslider .owl-dots {text-align: center;}
+.mobileslider .owl-theme .owl-dots .owl-dot span {border-radius: 27px;width: 40px;height: 6px;background: #D9D9D9;position: relative;}
+.mobileslider .owl-theme .owl-dots .owl-dot.active span::after{opacity: 1;}
+.mobileslider .owl-theme .owl-dots .owl-dot span::after {opacity: 0;border-radius: 27px;content: '';position: absolute;
+    top: 0px;right: 0px;width: 20px;height: 6px;background:#005430;z-index: 9;}

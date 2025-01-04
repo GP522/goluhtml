@@ -190,6 +190,31 @@ reducedslider.owlCarousel({
 
 
 
+var Newsslider = $('.Newsslider');
+Newsslider.owlCarousel({
+  loop: true,
+  nav: true,
+  dots: true,
+  smartSpeed: 450,
+  autoplay: true,
+  autoplayTimeout: 5000,
+  margin: 30,
+  responsive: {
+    320: { items: 1},
+    480: { items: 1},
+    600: { items: 1},
+    960: { items: 2 },
+    1200: { items: 4}
+  }
+});
+
+
+
+
+
+
+
+
 
 document.addEventListener("DOMContentLoaded", () => {
   const slides = document.querySelectorAll(".slide");
