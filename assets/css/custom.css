@@ -556,7 +556,7 @@ letter-spacing: -0.7px;white-space: nowrap;overflow: hidden;text-overflow: ellip
 .toparrow{position: absolute; top: 20px; right: 20px; z-index: 2;}
 span.toparrow img {height: auto;}
 .productimg img{width:100%; border-radius: 18px; height:642px;}
-.label-box img{height: 270px; width: 100%;}
+.label-box img{ width: 100%;}
 .explore-cnt.solve h5{color: #fff;letter-spacing:normal;}
 .explore-cnt.solve a{color: #fff; }
 /*----product Detail page-------*/
@@ -599,7 +599,7 @@ letter-spacing: -3.68px; max-width:560px;}
 .Key-cnt li{margin-bottom: 60px;}
 
 .Explore-img{position: relative; margin-top: 15px;}
-.Explore-img img{width: 100%; border-radius:18px;}
+.Explore-img img{width: 100%;}
 .Explore-text{position: absolute; top:80px; left:48px; z-index: 2;}
 .Explore-text h3{color: #FFF;font-family:'FoundersGrotesk-Regular';font-size: 50px;font-style: normal;font-weight: 500;line-height: 55px;letter-spacing: -0.07rem; max-width:900px;}
 .Explore-text ul{column-count: 3; width: 100%; margin-bottom: 60px;}
